@@ -1,0 +1,15 @@
+{
+  "name": "cobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sawix/cobot.git",
+  "author": "Jacob Dachenhaus <jdachenhaus99@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eris": "^0.13.3"
+  }
+}
